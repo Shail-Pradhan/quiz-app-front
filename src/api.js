@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:5000/api" });
+const API = axios.create({ baseURL: "https://quiz-app-server-kjh8.onrender.com/api" });
 
 // Fetch all quizzes
 export const fetchQuizzes = () => API.get("/quizzes");
