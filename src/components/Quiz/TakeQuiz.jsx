@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { fetchQuizzes, fetchQuizById } from "../api.js";
+import { fetchQuizzes, fetchQuizById } from "../../api.js";
 
 function TakeQuiz() {
   const [quizzes, setQuizzes] = useState([]);
